@@ -27,4 +27,8 @@ public class Usuario {
     public String getApellidos() {
         return this.apellidos;
     }
+
+    public int getEdad() {
+        return this.edad;
+    }
 }
