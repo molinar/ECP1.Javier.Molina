@@ -64,4 +64,8 @@ public class Usuario {
     public String getProfesion() {
         return this.profesion;
     }
+
+    public String getFullName() {
+        return this.nombre + " " + this.apellidos;
+    }
 }
