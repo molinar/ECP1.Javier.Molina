@@ -19,4 +19,8 @@ public class Usuario {
         System.out.println("Apellidos: " + this.apellidos);
         System.out.println("Edad" + this.edad);
     }
+
+    public String getNombre() {
+        return this.nombre;
+    }
 }
