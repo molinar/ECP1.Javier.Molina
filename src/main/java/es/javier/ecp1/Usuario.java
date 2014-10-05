@@ -8,14 +8,18 @@ public class Usuario {
 
     private int edad;
 
+    private int telefono;
+
     private String sexo;
 
     private String profesion;
 
-    public Usuario(String nombre, String apellidos, int edad, String sexo, String profesion) {
+    public Usuario(String nombre, String apellidos, int edad, int telefono, String sexo,
+            String profesion) {
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.edad = edad;
+        this.telefono = telefono;
         this.sexo = sexo;
         this.profesion = profesion;
     }
@@ -24,6 +28,7 @@ public class Usuario {
         System.out.println("Nombre: " + this.nombre);
         System.out.println("Apellidos: " + this.apellidos);
         System.out.println("Edad: " + this.edad);
+        System.out.println("Telefono: " + this.telefono);
         System.out.println("Sexo: " + this.sexo);
         System.out.println("Profesion: " + this.profesion);
     }
@@ -34,6 +39,10 @@ public class Usuario {
 
     public String getApellidos() {
         return this.apellidos;
+    }
+
+    public int getTelefono() {
+        return this.telefono;
     }
 
     public int getEdad() {
