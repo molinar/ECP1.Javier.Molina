@@ -14,14 +14,17 @@ public class Usuario {
 
     private String profesion;
 
+    private int dni;
+
     public Usuario(String nombre, String apellidos, int edad, int telefono, String sexo,
-            String profesion) {
+            String profesion, int dni) {
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.edad = edad;
         this.telefono = telefono;
         this.sexo = sexo;
         this.profesion = profesion;
+        this.dni = dni;
     }
 
     public void mostrarDatos() {
@@ -31,6 +34,7 @@ public class Usuario {
         System.out.println("Telefono: " + this.telefono);
         System.out.println("Sexo: " + this.sexo);
         System.out.println("Profesion: " + this.profesion);
+        System.out.println("DNI: " + this.dni);
     }
 
     public String getNombre() {
@@ -51,5 +55,9 @@ public class Usuario {
 
     public String getSexo() {
         return this.sexo;
+    }
+
+    public int getDNI() {
+        return this.dni;
     }
 }
