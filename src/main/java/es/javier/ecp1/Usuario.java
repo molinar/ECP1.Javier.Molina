@@ -68,4 +68,8 @@ public class Usuario {
     public String getFullName() {
         return this.nombre + " " + this.apellidos;
     }
+    
+    public String nombreMayusculas(){
+        return getNombre().toUpperCase();
+    }
 }
