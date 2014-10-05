@@ -27,4 +27,16 @@ public class Usuario {
         System.out.println("Sexo: " + this.sexo);
         System.out.println("Profesion: " + this.profesion);
     }
+
+    public String getNombre() {
+        return this.nombre;
+    }
+
+    public String getApellidos() {
+        return this.apellidos;
+    }
+
+    public int getEdad() {
+        return this.edad;
+    }
 }
