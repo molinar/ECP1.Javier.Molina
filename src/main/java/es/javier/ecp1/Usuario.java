@@ -10,11 +10,14 @@ public class Usuario {
 
     private String sexo;
 
-    public Usuario(String nombre, String apellidos, int edad, String sexo) {
+    private String profesion;
+
+    public Usuario(String nombre, String apellidos, int edad, String sexo, String profesion) {
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.edad = edad;
         this.sexo = sexo;
+        this.profesion = profesion;
     }
 
     public void mostrarDatos() {
@@ -22,5 +25,6 @@ public class Usuario {
         System.out.println("Apellidos: " + this.apellidos);
         System.out.println("Edad: " + this.edad);
         System.out.println("Sexo: " + this.sexo);
+        System.out.println("Profesion: " + this.profesion);
     }
 }
