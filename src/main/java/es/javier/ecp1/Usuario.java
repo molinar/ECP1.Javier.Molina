@@ -7,7 +7,7 @@ public class Usuario {
     private String apellidos;
 
     private int edad;
-    
+
     private int dni;
 
     public Usuario(String nombre, String apellidos, int edad, int dni) {
@@ -34,5 +34,9 @@ public class Usuario {
 
     public int getEdad() {
         return this.edad;
+    }
+
+    public int getDNI() {
+        return this.dni;
     }
 }
