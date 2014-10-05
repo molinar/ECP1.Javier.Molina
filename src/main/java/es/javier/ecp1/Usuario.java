@@ -23,4 +23,8 @@ public class Usuario {
     public String getNombre() {
         return this.nombre;
     }
+
+    public String getApellidos() {
+        return this.apellidos;
+    }
 }
