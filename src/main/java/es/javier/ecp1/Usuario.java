@@ -60,4 +60,8 @@ public class Usuario {
     public int getDNI() {
         return this.dni;
     }
+
+    public String getProfesion() {
+        return this.profesion;
+    }
 }
