@@ -39,4 +39,8 @@ public class Usuario {
     public int getEdad() {
         return this.edad;
     }
+
+    public String getSexo() {
+        return this.sexo;
+    }
 }
